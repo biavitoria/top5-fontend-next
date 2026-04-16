@@ -19,9 +19,9 @@ export default function RegisterPage() {
 
     const onSubmit = (data: RegisterFormData) => {
         mutate(data, {
-        onSuccess: () => {
-            reset();
-        },
+            onSuccess: () => {
+                reset();
+            },
         });
     };
 

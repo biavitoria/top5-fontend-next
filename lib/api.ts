@@ -1,5 +1,5 @@
 export async function apiFetch(path: string, options?: RequestInit) {
-    const res = await fetch(`https://127.0.0.1:8000/api${path}`, {
+    const res = await fetch(`http://127.0.0.1:8000/api${path}`, {
         ...options,
         headers: {
             "Content-Type": "application/json",
