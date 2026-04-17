@@ -37,7 +37,6 @@ export default function RegisterPage() {
                     Cadastre-se para sugerir músicas
                 </p>
 
-                {/* ERRO GLOBAL */}
                 {error && (
                     <div className="mb-4 text-red-500 text-sm text-center">
                         {(error as Error).message}

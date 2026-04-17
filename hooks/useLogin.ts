@@ -20,6 +20,7 @@ export function useLogin() {
             localStorage.setItem("user", JSON.stringify(res.user));
 
             router.push("/");
+            router.refresh();
         },
     });
 }
